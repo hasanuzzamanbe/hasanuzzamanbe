@@ -1,4 +1,4 @@
-<svg fill="none" width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+<svg fill="none" width="800" height="390" xmlns="http://www.w3.org/2000/svg">
 	<foreignObject width="100%" height="100%">
 		<div xmlns="http://www.w3.org/1999/xhtml">
 			<style>
@@ -49,38 +49,40 @@
     				border-radius: 6px;
 				}
 				.single-project a {
-					color: #0969da;
+					color: #000;
 					text-decoration: none;
 					font-weight: 800;
 					cursor: pointer;
 				}
+				/* The typing effect */
 			</style>
 			<div class="container">
 				<h1>Projects 🧑‍💻</h1>
 				<div class="project">
 					<div class="single-project" style="">
 						<a href="https://github.com/hasanuzzamanbe?tab=repositories&amp;q=&amp;type=&amp;language=php&amp;sort=stargazers">
-							<h3>WordPress / PHP</h3>
+							<h3>🔵 WordPress / PHP</h3>
 						</a>
 						<p>I create a variety of WordPress plugins, some of which are available in public repositories.
-							<a target="__blank" href="https://profiles.wordpress.org/hasanuzzamanshamim/">Visit my WordPress Profile</a>
+							Check WordPress Profile for latest activity; link on the profile section.
 						</p>
 					</div>
 					<div class="single-project" style="">
 						<a href="https://github.com/hasanuzzamanbe?tab=repositories&amp;q=&amp;type=source&amp;language=javascript&amp;sort=">
-							<h3>JavaScript</h3>
+							<h3>🟡 JavaScript</h3>
 						</a>
-						<p>I am a javascript enthusiast and use it to create various applications. You may check out some open-source JS projects here.!</p>
+						<p>I am a javascript enthusiast and use it to create various applications. You may check out some open-source
+						JS projects from the repository section! Just filter them out.</p>
 					</div>
 					<div class="single-project" style="">
 						<a href="https://github.com/hasanuzzamanbe?tab=repositories&amp;q=&amp;type=source&amp;language=vue&amp;sort=">
-							<h3>Vue.js</h3>
+							<h3>🟢 Vue.js</h3>
 						</a>
 						<p>I also enjoyed writing programs with React and Vue.js. When I was just starting out, I did a few stand-alone vue projects which are public.</p>
 					</div>
 					<div class="single-project" style="">
 						<a href="https://github.com/hasanuzzamanbe?tab=repositories&amp;q=&amp;type=public&amp;language=&amp;sort=stargazers">
-							<h3>View All</h3>
+							<h3>🚘 Others</h3>
 						</a>
 						<p>I enjoy making new things utilizing various programming languages as a programming enthusiast. Here, you can filter through all of the public repos.</p>
 					</div>

@@ -4,6 +4,6 @@ Hi    <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" widt
 
 <div align="center">
 	<a href="https://github.com/hasanuzzamanbe?tab=repositories&amp;q=&amp;type=public&amp;language=&amp;sort=stargazers">
-		<img src="project.svg" width="800" height="400" alt="projects">
+		<img src="project.svg" width="800" alt="projects">
 	</a>
 </div>
