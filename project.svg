@@ -1,0 +1,90 @@
+<svg fill="none" width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+	<foreignObject width="100%" height="100%">
+		<div xmlns="http://www.w3.org/1999/xhtml">
+			<style>
+				@keyframes rotate {
+					0% {
+						transform: rotate(2deg);
+					}
+					100% {
+						transform: rotate(-2deg);
+					}
+				}
+				.container {
+					font-family:sans-serif,
+					color: white;
+					background: #ccc;
+					padding: 4px 16px;
+				}
+
+				h1 {
+					text-align: center;
+					font-size: 30px;
+					letter-spacing: 5px;
+					text-transform: uppercase;
+					text-shadow:
+						0 1px 0 #efefef,
+						0 2px 0 #efefef,
+						0 3px 0 #efefef,
+						0 4px 0 #efefef,
+						0 12px 5px rgba(0, 0, 0, 0.1);
+					animation: rotate ease-in-out 1s infinite alternate;
+				}
+
+				p {
+					font-size: 12px;
+				}
+				.project {
+					display: flex;
+					justify-content: space-between;
+					padding-right: 4px;
+					flex-wrap: wrap;
+				}
+				.single-project {
+					border: 1px solid #eee;
+					margin-bottom: 10px;
+					padding: 10px 8px;
+					width:47%;
+    				border-radius: 6px;
+				}
+				.single-project a {
+					color: #0969da;
+					text-decoration: none;
+					font-weight: 800;
+					cursor: pointer;
+				}
+			</style>
+			<div class="container">
+				<h1>Projects 🧑‍💻</h1>
+				<div class="project">
+					<div class="single-project" style="">
+						<a href="https://github.com/hasanuzzamanbe?tab=repositories&amp;q=&amp;type=&amp;language=php&amp;sort=stargazers">
+							<h3>WordPress / PHP</h3>
+						</a>
+						<p>I create a variety of WordPress plugins, some of which are available in public repositories.
+							<a target="__blank" href="https://profiles.wordpress.org/hasanuzzamanshamim/">Visit my WordPress Profile</a>
+						</p>
+					</div>
+					<div class="single-project" style="">
+						<a href="https://github.com/hasanuzzamanbe?tab=repositories&amp;q=&amp;type=source&amp;language=javascript&amp;sort=">
+							<h3>JavaScript</h3>
+						</a>
+						<p>I am a javascript enthusiast and use it to create various applications. You may check out some open-source JS projects here.!</p>
+					</div>
+					<div class="single-project" style="">
+						<a href="https://github.com/hasanuzzamanbe?tab=repositories&amp;q=&amp;type=source&amp;language=vue&amp;sort=">
+							<h3>Vue.js</h3>
+						</a>
+						<p>I also enjoyed writing programs with React and Vue.js. When I was just starting out, I did a few stand-alone vue projects which are public.</p>
+					</div>
+					<div class="single-project" style="">
+						<a href="https://github.com/hasanuzzamanbe?tab=repositories&amp;q=&amp;type=public&amp;language=&amp;sort=stargazers">
+							<h3>View All</h3>
+						</a>
+						<p>I enjoy making new things utilizing various programming languages as a programming enthusiast. Here, you can filter through all of the public repos.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</foreignObject>
+</svg>
